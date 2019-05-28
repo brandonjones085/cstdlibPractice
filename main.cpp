@@ -2,6 +2,7 @@
 
 #include "menu.h"
 #include "Queue.h"
+#include "stack.h"
 
 #include <iostream>
 #include <queue>
@@ -16,6 +17,10 @@ int main()
 		//run queue 
 		queue(); 
 
+	}
+	else
+	{
+		stack(); 
 	}
 	
 
