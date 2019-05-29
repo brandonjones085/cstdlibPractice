@@ -15,6 +15,7 @@
 #include <ctime>
 #include <cstdlib>
 
+void printQueue(std::queue<int> q); 
 
 
 void queue()
@@ -87,15 +88,7 @@ void queue()
 		}
 
 
-		//Prints the queue
-
-		while (!Queue.empty())
-		{
-			std::cout << "\nThe queue...\n";
-			std::cout << Queue.front() << " ";
-			Queue.pop();
-
-		}
+		printQueue(Queue); 
 
 		//If the queue is empty
 		if (Queue.empty())
@@ -129,4 +122,16 @@ void queue()
 
 	}
 
+}
+
+
+
+void printQueue(std::queue<int> q)
+{
+	while (!q.empty())
+	{
+		std::cout << q.front() << " "; 
+		q.pop(); 
+	}
+	std::cout << std::endl; 
 }

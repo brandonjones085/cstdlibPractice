@@ -1,4 +1,3 @@
-﻿  stack.cpp
-  validateString.cpp
-  Generating Code...
+﻿  Queue.cpp
+c:\users\brand\desktop\files\osu\cs162\week9\main\main\queue.cpp(117): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
   main.vcxproj -> C:\Users\brand\Desktop\files\OSU\cs162\week9\main\Debug\main.exe
