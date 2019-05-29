@@ -1,4 +1,8 @@
-
+/*******************************************************************************
+** Author:       Brandon Jones
+** Date:         05/27/2019
+** Description:  The main file for the program
+*******************************************************************************/
 
 #include "menu.h"
 #include "Queue.h"
@@ -11,18 +15,25 @@ int main()
 {
 	int num = menu(); 
 
-	
-	if (num == 1)
+	while (num == 1 || num == 2)
 	{
-		//run queue 
-		queue(); 
+
+
+		if (num == 1)
+		{
+			//run queue 
+			queue();
+			num = menu(); 
+
+		}
+		else
+		{
+			//runs stack
+			stack();
+			num = menu(); 
+		}
 
 	}
-	else
-	{
-		stack(); 
-	}
-	
 
 	
 

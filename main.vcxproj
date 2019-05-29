@@ -154,7 +154,10 @@
     <ClInclude Include="menu.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Queue.h" />
+    <ClInclude Include="stack.h" />
     <ClInclude Include="validateInt.h" />
+    <ClInclude Include="validateMenu.h" />
+    <ClInclude Include="validateString.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -166,7 +169,10 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="stack.cpp" />
     <ClCompile Include="validateInt.cpp" />
+    <ClCompile Include="validateMenu.cpp" />
+    <ClCompile Include="validateString.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

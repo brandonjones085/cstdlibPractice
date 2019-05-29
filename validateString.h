@@ -1,14 +1,19 @@
 /*******************************************************************************
 ** Author:       Brandon Jones
 ** Date:         05/27/2019
-** Description:  The header file for the validateMenu function
+** Description:  HEader file for the validateString function
 *******************************************************************************/
 
 
 
-#ifndef VALIDATEMENU_HPP
-#define VALIDATEMENU_HPP
 
-void validateMenu(int&);
+#ifndef VALIDATESTRING_HPP
+#define VALIDATESTRING_HPP
+
+#include <iostream>
+#include <string>
+
+void validateString(std::string&); 
+
 
 #endif
